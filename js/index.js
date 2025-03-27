@@ -56,6 +56,6 @@ console.log(`Квадратний корень числа ${number} це - ${sqr
 const integer = 42;
 const stringNumber = "256";
 const convertedInt = Number.parseInt(stringNumber)
-console.log(`Ваше ціле число - ${convertedInt}`);
-const convertedString = Number.toString(integer);
-console.log(convertedString); // я не знаю як це робити
+console.log(`Ваше ціле число - ${convertedInt}, ${typeof(convertedInt)}`);
+const convertedString = integer.toString();
+console.log(`Ваше рядкове число - ${convertedString}, ${typeof(convertedString)}`);
